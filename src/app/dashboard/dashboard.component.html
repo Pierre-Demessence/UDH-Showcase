@@ -1,0 +1,38 @@
+<div fxLayout="row wrap" fxLayoutAlign="space-evenly baseline">
+  <mat-card class="example-card mat-elevation-z8" *ngFor="let i of [1,2,3,4,5,6,7,8,9]">
+    <mat-card-header>
+      <mat-card-title class="mat-display-1">Subaeria</mat-card-title>
+      <!--<mat-card-subtitle>fdgd</mat-card-subtitle>-->
+    </mat-card-header>
+    <img mat-card-image src="https://steamcdn-a.akamaihd.net/steam/apps/377250/header.jpg"
+         alt="Photo of a Shiba Inu">
+    <mat-card-content>
+      <p>
+        Subaeria is an intense action puzzler where players use their wits to manipulate their enemies into
+        destroying each other.
+      </p>
+      <p>
+        <mat-chip-list>
+          <mat-chip>Action</mat-chip>
+          <mat-chip>Adventure</mat-chip>
+          <mat-chip>Indie</mat-chip>
+          <mat-chip>Roguelike</mat-chip>
+        </mat-chip-list>
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button>
+        <mat-icon>favorite</mat-icon>
+        LIKE
+      </button>
+      <button mat-button>
+        <mat-icon>share</mat-icon>
+        SHARE
+      </button>
+      <a href="https://store.steampowered.com/app/377250/Subaeria/" target="_blank" mat-button>
+        <mat-icon>arrow_right_alt</mat-icon>
+        STEAM
+      </a>
+    </mat-card-actions>
+  </mat-card>
+</div>
